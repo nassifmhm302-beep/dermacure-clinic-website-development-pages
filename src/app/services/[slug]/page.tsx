@@ -106,11 +106,11 @@ export default async function ServiceDetailPage({ params }: Params) {
           <aside className="rounded-[var(--radius-xl)] border border-line bg-white p-6 shadow-card">
             <Photo
               src="/images/clinic/procedure.jpg"
-              alt="إجراء تجميلي داخل عيادة جلدية (صورة توضيحية غير مرفقة بملفات الموقع، وليست لعيادة DermaCure)"
+              alt="صورة توضيحية لأخصائية تستخدم جهاز عناية بالبشرة؛ ليست صورة موثقة لعيادة DermaCure."
               className="h-44 rounded-[var(--radius-md)]"
               position="center 35%"
             />
-            <p className="mt-2 text-[13px] text-muted">ملف الصورة التوضيحية غير مرفق في نسخة الموقع الحالية</p>
+            <p className="mt-2 text-[13px] text-muted">صورة توضيحية مستخرجة من التسجيل المرفق، وليست صورة رسمية للعيادة.</p>
 
             <h2 className="mt-6 text-[20px] font-bold text-ink">الأطباء الذين يقدمون الخدمة</h2>
             {linkedDoctors.length > 0 ? (

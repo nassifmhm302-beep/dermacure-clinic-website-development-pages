@@ -82,8 +82,8 @@ export default function AboutPage() {
 
             <aside className="space-y-5">
               <Photo
-                src="/images/clinic/reception.jpg"
-                alt="مساحة استقبال نظيفة وحديثة في عيادة (صورة توضيحية غير مرفقة بملفات الموقع، وليست لعيادة DermaCure)"
+                src="/images/clinic/procedure.jpg"
+                alt="صورة توضيحية لاستخدام جهاز عناية بالبشرة داخل عيادة جلدية؛ ليست صورة موثقة لعيادة DermaCure."
                 className="h-[260px] rounded-[var(--radius-xl)] border border-line"
                 position="center 45%"
               />

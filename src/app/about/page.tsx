@@ -82,11 +82,12 @@ export default function AboutPage() {
 
             <aside className="space-y-5">
               <Photo
-                src="/images/clinic/procedure.jpg"
-                alt="صورة توضيحية لاستخدام جهاز عناية بالبشرة داخل عيادة جلدية؛ ليست صورة موثقة لعيادة DermaCure."
+                src="/images/clinic/procedure.webp"
+                alt="صورة توضيحية لأخصائية تستخدم جهاز تنظيف البشرة بالموجات فوق الصوتية؛ لا تمثل فريق DermaCure."
                 className="h-[260px] rounded-[var(--radius-xl)] border border-line"
-                position="center 45%"
+                position="center 58%"
               />
+              <p className="text-xs leading-6 text-muted">صورة توضيحية من Pexels؛ الأشخاص الظاهرون لا يمثلون فريق DermaCure ولا يؤيدون خدماتها.</p>
 
               <div className="rounded-[var(--radius-xl)] border border-line bg-primary-dark p-7 text-white">
                 <p className="font-display text-[13px] tracking-[0.3em] text-gold">شعارنا</p>

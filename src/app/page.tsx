@@ -101,10 +101,10 @@ export default function HomePage() {
                 aria-hidden
               />
               <Photo
-                src="/images/clinic/hero-facial.jpg"
-                alt="صورة توضيحية لجلسة عناية بالبشرة؛ مستخرجة من تسجيل الشاشة وليست صورة موثقة لعيادة DermaCure."
+                src="/images/clinic/hero-facial.webp"
+                alt="صورة توضيحية لجلسة علاج جلدي بالليزر، وليست صورة موثقة لعيادة DermaCure."
                 eager
-                position="left center"
+                position="center 62%"
                 className="h-[380px] rounded-[46%_46%_40%_40%/38%_38%_46%_46%] border border-white shadow-[0_28px_60px_rgb(23_59_74/16%)] md:h-[440px]"
               />
               <span className="absolute -bottom-6 right-1/2 flex translate-x-1/2 flex-col items-center gap-1 rounded-[var(--radius-lg)] border border-line bg-white/95 px-6 py-4 shadow-[0_16px_36px_rgb(23_59_74/14%)] backdrop-blur">
@@ -113,8 +113,11 @@ export default function HomePage() {
                 <span className="font-display text-[22px] leading-none text-ink">
                   Derma<span className="text-primary">Cure</span>
                 </span>
-              </span>
+                </span>
             </div>
+            <p className="mt-8 text-center text-xs leading-6 text-muted">
+              الصور توضيحية فقط؛ الأشخاص الظاهرون ليسوا من فريق أو مرضى DermaCure ولا يؤيدون العيادة.
+            </p>
           </Reveal>
         </div>
 
@@ -174,10 +177,10 @@ export default function HomePage() {
             </div>
 
             <Photo
-              src="/images/clinic/treatment.jpg"
-              alt="صورة توضيحية لجلسة قناع وعناية بالبشرة؛ ليست صورة موثقة لعيادة DermaCure."
+              src="/images/clinic/treatment.webp"
+              alt="صورة توضيحية لجلسة قناع وعناية بالبشرة من Pexels؛ لا تمثل مريضة لعيادة DermaCure."
               className="h-[280px] rounded-[var(--radius-lg)] md:h-[340px]"
-              position="center 35%"
+              position="center 50%"
             />
           </div>
         </Reveal>
@@ -239,10 +242,10 @@ export default function HomePage() {
 
             <Reveal delay={100}>
               <Photo
-                src="/images/clinic/procedure.jpg"
-                alt="صورة توضيحية لأخصائية تستخدم جهاز عناية بالبشرة؛ ليست صورة موثقة لعيادة DermaCure."
+                src="/images/clinic/procedure.webp"
+                alt="صورة توضيحية لأخصائية تستخدم جهاز تنظيف البشرة بالموجات فوق الصوتية؛ ليست صورة من عيادة DermaCure."
                 className="h-[300px] rounded-[var(--radius-xl)] border border-line md:h-[380px]"
-                position="center 30%"
+                position="center 58%"
               />
             </Reveal>
           </div>
